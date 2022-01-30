@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>life-hack</title>
+    <script>
+        function playDetect() {
+    console.log("Media playing");
+    alert("playing");
+}
+
+function pauseDetect() {
+    console.log("Media paused");
+    alert("paused");
+}
+    </script>
+</head>
+
+
+<body>
+<table align="right" >
+    <thead>
+   
+   <td>
+       <p>
+        <a href="google.com" target="_blank"> <ins>Podcasts</ins>|  </a>  
+        <a href="google.com" target="_self"><ins>Articles</ins>| </a> 
+        <a href="../Auth/signin.html" target="_blank"> <ins>Sigin</ins>| </a> 
+        <a href="../auth/register.html" target="_blank"> <ins>Register</ins>| </a> 
+        <a href="google.com" target="_blank"> <ins>Contact Us</ins> </a> 
+    </p>
+</thead>
+</table>
+
+
+<table>
+    <td> 
+        <img src="../resources/images/logo_gold.png" height="90px" width="70px">
+   </td>
+</table>
+
+<hr>
+
+ <table  align="right">
+     <thead >
+         <td>
+    <a href="" ">Go to Botom</a>
+    </td>   
+    </thead>
+</table >
+
+
+<table id = parent>
+    <tr>  
+<td id = appended width="80%">
+<P>
+    <b>
+        <h1>
+            Eric Hoffer and the Power of Self-Education
+        </h1>
+    </b>
+</P>
+ <script>
+     function swap(){
+    var imageV= document.getElementById("image");
+    var vidV= document.getElementById("vid");
+    var contain = document.getElementById("but");
+    imageV.parentNode.replaceChild(vidV, imageV);
+    contain.parentNode.insertBefore(imageV, contain);
+     }
+     function remove(){
+         var removed= document.getElementById("aud");
+        removed.parentNode.removeChild(removed);
+     }
+     function insert(){
+         var para = document.createElement("p");
+         var tableL = document.getElementById("appended");
+         const node = document.createTextNode("IF you only have 24 hours in a day,your success dependent upon how you used the 24 hours. YOU gotta hear me,people talk about oprah winfrey,you know ted turner,warren buffett. LISTEN to me, i don't care how much money you make; you only get 24 hours in a day. AND the difference between oprah and the person that's broke is oprah uses her 24 hours wisely.That's it! LISTEN to me, that's it! you get 24! I don't care if you are broke,you grew up broke. I don't care if you grew up rich, i don't care if you are in college,you are not in college. YOU only get 24 hours ! I can tell you all about your life, if you just write down your 24 hour-schedule for me. YOU let me look at it,i can tell you where you are going to be in 5 years.I can tell you where you are going to be in 10 years, if you keep that schedule. THANK YOU.");
+         para.appendChild(node);
+         tableL.appendChild(para);
+     }
+ </script>
+    <img id = image src="../resources/images/banners/life1.jpg" usemap=#image-map width="1052px" height="auto">
+    <br/>
+    <button onclick = "swap()">Swap</button>
+   
+    <p>
+        I recently read The True Believer by Eric Hoffer. It’s a book about how mass movements evolve. With a lot
+of historical examples, the book explains the patterns and common threads among them. It’s an insightful
+book and reading it was a great learning experience for me
+    </p>
+    
+    <p>
+        <img src="mnldf.png" alt="The True
+        Believer book
+        cover">
+        What I’d like to share with you here is not the content of the book, though. Instead, I’d
+like to share with you about the author.
+You see, I didn’t know about Eric Hoffer before. But I imagined he must be a famous
+professor from a well-known university. I mean, what else could explain the depth of his
+insights? The True Believer is an influential book. Here is how <a href="wikipedia.com" target="_blank">Wikipedia</a> put it... <ins><a href="">read more</a></ins>
+    </p>
+    <details>
+        <summary><big><b>Internet Programming</b></big></summary>
+        <p>Chapter 1: Fundamentals Of Internet Programming</p>
+        <p>Chapter 2: Web Development Using HTML</p>
+        <p>chapter 3: Cascading Style Sheet (CSS)</p>
+        <p>Chapter 4: Client-side scripting language</p>
+        <p>Chapter 5: Web Security</p>
+    </details>
+    <hr>
+
+<h4>
+    New Podcast
+    
+</h4>
+<h2>
+    Jack Ma - How I Overcame Failure
+</h2>
+
+<audio id= aud src = "../resources/audio/Jack Ma - How I Overcame Failure.mp3 " Loop controls onplay="playDetect()" onpause="pauseDetect()" >
+</audio>
+<br />
+<button onclick= "remove()">Remove Audio</button>
+<br />
+
+
+<hr>
+
+<h4>
+Pick of The Week
+</h4>
+<h2>
+24 Hours A Day
+</h2>
+<video id = vid src="../resources/video/24_HOURS.mp4" width="480" height ="320" muted loop controls onplay="playDetect()" onpause="pauseDetect()" >
+</video>
+<br />
+<button id = but onclick = "insert()">Description</button>
+
+</td>
+
+<td valign="top">
+    <p>
+    <h2><big><b>Recent Posts</big></b></h2>
+    
+<ul>
+    <li><b><big>Articles</big></b></li>
+    </ul>
+        <li>
+            The Importance of Goals,
+    Especially During Difficult
+    Times
+    </li>
+    <li> 5 Steps to Discovering Your
+    Life Purpose In 2022!
+    </li>
+    </li>
+</ul>
+
+    <ul><b>Ideas</b>
+    <li>10 Books to Read in The Fall</li>
+   <li>Top Web Development Projects</li>
+    Ideas
+</ul>
+
+
+
+<h2>Most Viewed Articles</h2>
+
+<ol>
+<li>Instant Gratification Is Stopping You
+    From Reaching Your Goals! 
+</li>
+<li>Stop Juggling Between Work And Life</li>
+</ol>
+
+<B>IP Project Winners</B>
+
+    <pre>
+----------------------------------
+Rank Award
+----------------------------------
+First Free hosting and support
+Second 5GB Mobile Data
+Third 1GB Mobile Data
+----------------------------------
+</pre>
+</p>
+</td>
+</tr>
+<tr>
+    <td colspan="2">
+      <hr />
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+      <p>
+        Follow Us On: <a href="">Facebook</a>|
+        <a href="">Twitter</a>
+      </p>
+    </td>
+    <td align="right">
+      <a href="">Privacy</a>|
+      <a href="">Terms of Use</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      Copyright © AASTU SEng 2021, All Rights Reserved
+    </td>
+  </tr>
+</table>
+
+    </body>
+    
+    </HTML>
